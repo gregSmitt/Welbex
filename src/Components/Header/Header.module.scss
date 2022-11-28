@@ -1,0 +1,19 @@
+.header{
+	margin-top: 46px;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	position:relative;
+	z-index: 10;
+	@media (max-width: 1050px) {
+		margin-top: 36px;
+	}
+	@media (max-width: 700px) {
+		margin-top: 0px;
+		position: fixed;
+		top: 0;
+		left: 0;
+		background-color: #0E1014;
+		padding: 20px 16px;
+	}
+}

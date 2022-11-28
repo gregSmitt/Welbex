@@ -1,0 +1,32 @@
+.contacts{
+	display: flex;
+	width: 100%;
+	max-width: 309px;
+	justify-content: space-between;
+	@media (max-width: 850px) {
+		max-width: 290px;
+	}
+	@media (max-width: 700px) {
+		display: none;
+	}
+}
+
+.tel{
+	font-family: 'Inter';
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: right;
+	margin-top: 15px;
+	margin-right: 17px;
+	@media (max-width: 850px) {
+		margin-right: 0px;
+	}
+}
+
+.icon{
+	margin-top: 14px;
+	&.whatsapp{
+		margin-top: 13px;
+	}
+}

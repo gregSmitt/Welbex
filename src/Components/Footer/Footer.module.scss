@@ -1,0 +1,51 @@
+.footer{
+	min-height: 315px;
+	max-width: 1141px;
+	display: flex;
+	z-index: 10;
+	position: relative;
+	font-family: 'Inter';
+	justify-content: space-between;
+	padding-top: 55px;
+	@media (max-width: 700px) {
+		padding-top: 41px;
+		padding-bottom: 60px;
+	}
+	@media (max-width: 576px) {
+		flex-direction: column;
+	}
+}
+
+.container{
+	display: flex;
+	max-width: 851 - 148 + px;
+	width: 100%;
+	justify-content: space-between;
+	@media (max-width: 700px) {
+		display: grid;
+		grid-template-areas:
+		"company company"
+		"menu other";
+		grid-template-columns: 200px 1fr;
+		
+		.company{
+			grid-area: company;
+			max-width: 200px;
+		}
+		.menu{
+			grid-area: menu;
+			max-width: 200px;
+		}
+		.other{
+			grid-area: other;
+		}
+	}
+	@media (max-width: 576px) {
+		column-gap: 10px;
+		grid-template-columns: 1fr 1fr;
+		.other,.menu{
+			max-width: 130px;
+		}
+		margin-bottom: 30px;
+	}
+}

@@ -1,0 +1,58 @@
+.gift{
+	&:first-child{
+		margin-bottom: 30px;
+		@media (max-width: 576px) {
+			margin-bottom: 0px;
+		}
+	}
+}
+.title{
+	font-family: 'Inter';
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: right;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+}
+.content{
+	margin-top: 6px;
+	max-width: 135px;
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: right;
+	display: block;
+}
+.mobile{
+	display: none;
+}
+
+@media (max-width: 576px) {
+	.content, .title{
+		display: none;
+	}
+	.mobile{
+		display: block;
+		font-family: 'Montserrat';
+		font-weight: 400;
+		font-size: 13px;
+		line-height: 16px;
+		letter-spacing: 0.05em;
+		text-transform: uppercase;
+		position: relative;
+		padding-left: 15px;
+		&::before{
+			content: '';
+			position: absolute;
+			width: 10px;
+			height: 1px;
+			left: 0px;
+			top: 7px;
+			background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
+			
+			
+		}
+	}
+}

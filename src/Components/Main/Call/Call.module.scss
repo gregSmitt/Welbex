@@ -1,0 +1,42 @@
+.call{
+	max-width: 363px;
+	@media (max-width: 700px) {
+		max-width: 400px;
+	}
+}
+
+.title{
+	font-size: 48px;
+	font-family: 'Inter';
+	font-weight: 400;
+	line-height: 58px;
+	span{
+		display: block;
+		font-weight: 900;
+
+		background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-clip: text;
+		text-fill-color: transparent;
+	}
+	
+	@media (max-width: 700px) {
+		font-size: 53px;
+	}
+	@media (max-width: 576px) {
+		font-size: calc(36px + (72 - 36)*((100vw - 320px)/(576-320)));
+		line-height: calc(43.57px + (58 - 43.57)*((100vw - 320px)/(576-320)));
+	}
+}
+.slogan{
+	max-width: 275px;
+	margin-top: 30px;
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	@media (max-width: 700px) {
+		margin-top: 15px;
+	}
+}

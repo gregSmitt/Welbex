@@ -1,0 +1,79 @@
+.proposal{
+	margin-top: 15px;
+	@media (max-width: 700px) {
+		margin-top: 45px;
+		max-width: 400px;
+		width: 100%;
+	}
+}
+.title{
+	font-family: 'Inter';
+	max-width: 291px;
+	
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: right;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+
+	/* gradient */
+	background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+
+	span{
+		font-weight: 500;
+		-webkit-text-fill-color: #E4E5EA;
+		text-fill-color: #E4E5EA;
+		text-transform: none;
+	}
+	@media (max-width: 700px) {
+		text-align: left;
+	}
+}
+
+.container{
+	margin-top: 40px;
+	display: flex;
+	max-width: 299px;
+	justify-content: space-between;
+	@media (max-width: 700px) {
+		margin-top: 20px;
+		max-width: inherit;
+	}
+	@media (max-width: 576px) {
+		flex-direction: column;
+	}
+}
+
+.gifts{
+	@media (max-width: 700px) {
+		&:first-child{
+			p, span{
+				text-align: left;
+			}
+		}
+	}
+	@media (max-width: 576px) {
+		:first-child{
+			margin-bottom: 14px;
+		}
+		display: flex;
+		&.reverse{
+			flex-direction: row-reverse;
+			justify-content: start;
+		}
+		p{
+			margin-right: 15px;
+		}
+		&:first-child{
+			p{
+				margin-right: 10px;
+			}
+		}
+	}
+}
