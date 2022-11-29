@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Welbex/static/css/main.faa42a97.css",
+    "main.js": "/Welbex/static/js/main.577eba3b.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Welbex/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Inter-Black.ttf": "/Welbex/static/media/Inter-Black.143c28420846d45c5834.ttf",
+    "static/media/Inter-Bold.ttf": "/Welbex/static/media/Inter-Bold.88fa7ae373b07b41ecce.ttf",
+    "static/media/Inter-Medium.ttf": "/Welbex/static/media/Inter-Medium.6dcbc9bed1ec438907ee.ttf",
+    "static/media/Inter-Regular.ttf": "/Welbex/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
+    "static/media/Montserrat-Regular.ttf": "/Welbex/static/media/Montserrat-Regular.ceb11275ab638627a643.ttf",
+    "static/media/Montserrat-Thin.ttf": "/Welbex/static/media/Montserrat-Thin.413b6b9f23ece3b343a7.ttf",
+    "static/media/noice.png": "/Welbex/static/media/noice.189003e73386caa23300.png",
+    "static/media/logo_welbex.svg": "/Welbex/static/media/logo_welbex.27138dbd60d7029458ade4c27660c15a.svg",
+    "static/media/whatsapp_icon.svg": "/Welbex/static/media/whatsapp_icon.ebe720f0c912eda28e2bf0613c18300f.svg",
+    "static/media/viber_icon.svg": "/Welbex/static/media/viber_icon.efdbe6bd3950a854df10750809a40828.svg",
+    "index.html": "/Welbex/index.html",
+    "static/media/tg_icon.svg": "/Welbex/static/media/tg_icon.40ecd015eebebbe71b5bd0354d54208e.svg",
+    "main.faa42a97.css.map": "/Welbex/static/css/main.faa42a97.css.map",
+    "main.577eba3b.js.map": "/Welbex/static/js/main.577eba3b.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Welbex/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.faa42a97.css",
+    "static/js/main.577eba3b.js"
+  ]
+}
