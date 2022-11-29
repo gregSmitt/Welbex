@@ -25,7 +25,7 @@
 		font-size: 53px;
 	}
 	@media (max-width: 576px) {
-		font-size: calc(36px + (72 - 36)*((100vw - 320px)/(576-320)));
+		font-size: calc(36px + (53 - 36)*((100vw - 320px)/(576-320)));
 		line-height: calc(43.57px + (58 - 43.57)*((100vw - 320px)/(576-320)));
 	}
 }
